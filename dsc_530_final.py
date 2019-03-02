@@ -28,7 +28,7 @@ strava_data = all_strava_data[
      (all_strava_data.gear_id == 'b2468160')
     )
 ]
-"""
+
 ########### PART TWO ############
 distance_mi = strava_data['distance_mi']
 moving_time = strava_data['moving_time']
@@ -48,7 +48,6 @@ def my_histogram(data, color, edgecolor, bins, title, label):
     plt.ylabel('Frequency')
     plt.show()
 
-
 # Plot the variables, except for gear_id.
 my_histogram(distance_mi, 'blue', 'black', 20, 'Distance Histogram', 'Distance in Miles')
 my_histogram(moving_time, 'blue', 'black', 20, 'Moving Time Histogram', 'Time in Seconds')
@@ -65,7 +64,6 @@ plt.title('Gear Id Histogram')
 plt.xlabel('Gear Id')
 plt.ylabel('Frequency')
 plt.show()
-
 
 ########### PART FOUR ############
 def desc_stats(data, xlabel):
@@ -86,7 +84,6 @@ def desc_stats(data, xlabel):
     plt.legend()
     plt.show()
 
-
 desc_stats(distance_mi, 'Distance in Miles')
 desc_stats(moving_time, 'Moving Time in Seconds')
 desc_stats(total_elevation_gain, 'Total Elevation Gain')
@@ -94,7 +91,6 @@ desc_stats(avg_speed_mph, 'Average Speed in MPH')
 desc_stats(average_watts, 'Average Power in Watts')
 desc_stats(average_heartrate, 'Average Heart Rate')
 desc_stats(average_temp, 'Average Temperature in Celsius')
-
 
 ########### PART FIVE ############
 def pmf_stuff(width, x_low, x_high, third, pmf_one, pmf_two, label, y_axis_scale):
@@ -125,9 +121,7 @@ pmf_more = thinkstats2.Pmf(over_three_hr, label="More Than Three HR")
 pmf_less = thinkstats2.Pmf(less_three_hr, label='Less Than Three HR')
 pmf_stuff(1, 8000, 22000, 0, pmf_more, pmf_less, 'Ride Length (Min)', 0.02)
 
-
 ########### PART SIX ############
-
 cdf = thinkstats2.Cdf(moving_time, label='Moving Time')
 thinkplot.Cdf(cdf)
 thinkplot.Show(xlabel='Moving Time in Min', ylabel='CDF')
@@ -137,7 +131,6 @@ less_cdf = thinkstats2.Cdf(less_one_hr, label='Less Than One Hr')
 thinkplot.PrePlot(2)
 thinkplot.Cdfs([more_cdf, less_cdf])
 thinkplot.Show(xlabel='Moving Time (Min)', ylabel='CDF')
-
 
 ########### PART SEVEN ############
 avg_watts = average_watts.dropna()
@@ -236,7 +229,6 @@ strava_data_with_temp = strava_data[
     (strava_data.average_temp.notnull())]
 print(corr(strava_data_with_temp.avg_speed_mph, strava_data_with_temp.average_temp))
 
-
 ########### PART NINE ############
 class CorrelationPermute(thinkstats2.HypothesisTest):
     def TestStatistic(self, data):
@@ -256,7 +248,6 @@ pvalue = corr_perm.PValue()
 print(pvalue)
 print(corr_perm.actual, corr_perm.MaxTestStat())
 
-
 ########### PART TEN ############
 reg_formula = 'avg_speed_mph ~ average_watts'
 model = smf.ols(reg_formula, data=strava_data)
@@ -266,7 +257,6 @@ print('Intercept:', results.params['Intercept'])
 print('Slope:', results.params['average_watts'])
 print('Slope p-value:', results.pvalues['average_watts'])
 print('R-Squared:', results.rsquared)
-"""
 
 reg_formula = 'avg_speed_mph ~ average_watts + total_elevation_gain + moving_time + average_temp'
 model = smf.ols(reg_formula, data=strava_data)

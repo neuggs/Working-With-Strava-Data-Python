@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="223a8078-6819-4989-9caf-775c0e1dc4a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DSC530-Neugebauer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DSC530-Neugebauer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01. My Dataset.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/01. My Dataset.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/histograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/histograms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/histograms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/histograms.py" beforeDir="false" afterPath="$PROJECT_DIR$/dsc_530_final.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/histograms.py">
+        <entry file="file://$PROJECT_DIR$/dsc_530_final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="271" column="46" lean-forward="true" selection-start-line="271" selection-start-column="46" selection-end-line="271" selection-end-column="46" />
+            <state relative-caret-position="413">
+              <caret line="250" selection-start-line="250" selection-end-line="250" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -50,10 +47,11 @@
       <list>
         <option value="$PROJECT_DIR$/DSC530 Final - Neugebauer.ipynb" />
         <option value="$PROJECT_DIR$/histograms.py" />
+        <option value="$PROJECT_DIR$/dsc_530_final.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -115,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/histograms.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\FNGB\Documents\GitHub\DSC530-Neugebauer\dsc_530_final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,13 +133,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34236187" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34236187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -191,10 +188,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/histograms.py">
+    <entry file="file://$PROJECT_DIR$/dsc_530_final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="271" column="46" lean-forward="true" selection-start-line="271" selection-start-column="46" selection-end-line="271" selection-end-column="46" />
+        <state relative-caret-position="413">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
