@@ -15,3 +15,6 @@ This project was built using PyCharm, although I suspect any IDE will work. You'
 * statsmodels
 
 The "thinkplot" packages come from the Think Stats book by Allen B. Downey available from Green Tea Press. You can't use a package manager to install these libraries - you need to use the author's GitHub: https://github.com/AllenDowney/ThinkStats2.
+
+# To Use
+The `working_with_strava_data.ipynb` Jupyter Notebook is the main source code for the project, which also contains more documentation on what's going on.
